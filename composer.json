@@ -1,0 +1,18 @@
+{
+    "name": "butterfly/example-web-site",
+    "description": "Butterfly PHP. Web Site Example",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "butterfly/packages": "1.2.*",
+        "butterfly/app-request-response": "1.1.*",
+        "butterfly/plugin-template-router": "1.0.*",
+        "butterfly/adapter-sf2-event-dispatcher": "1.0.*",
+        "butterfly/adapter-twig": "1.1.*"
+    },
+    "annotations": ["src"]
+}
