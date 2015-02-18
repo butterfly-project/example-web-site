@@ -1,6 +1,4 @@
 nbproject/
 .idea/
 vendor/
-var/
-!var/.gitkeep
 phpunit.phar
