@@ -1,13 +1,16 @@
 {% extends 'layout.html.twig' %}
 
-{% block title %}Debug{% endblock %}
+{% block title %}Users{% endblock %}
 
 {% block content %}
+
+    <h1>Users</h1>
+
     <table border="1">
         <tr>
-            <th>Имя пользователя</th>
+            <th>Username</th>
             <th>E-mail</th>
-            <th>Количество сообщений</th>
+            <th>Count messages</th>
         </tr>
     {% for user in data.users %}
         <tr>
@@ -17,4 +20,8 @@
         </tr>
     {% endfor %}
     </table>
+
+    <hr>
+
+    <a href="/">Home</a>
 {% endblock %}

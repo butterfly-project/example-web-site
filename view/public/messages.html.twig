@@ -1,0 +1,27 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Messages{% endblock %}
+
+{% block content %}
+
+    <h1>Messages</h1>
+
+    <table border="1">
+        <tr>
+            <th>From</th>
+            <th>Subject</th>
+            <th>Body</th>
+        </tr>
+    {% for message in data.messages %}
+        <tr>
+            <td>{{ message.from }}</td>
+            <td>{{ message.subject }}</td>
+            <td>{{ message.body }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+
+    <hr>
+
+    <a href="/">Home</a>
+{% endblock %}

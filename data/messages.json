@@ -1,0 +1,17 @@
+[
+    {
+        "from": "User 1",
+        "subject": "Test subject 1",
+        "body": "Test body message 1"
+    },
+    {
+        "from": "User 2",
+        "subject": "Test subject 2",
+        "body": "Test body message 2"
+    },
+    {
+        "from": "User 3",
+        "subject": "Test subject 3",
+        "body": "Test body message 3"
+    }
+]

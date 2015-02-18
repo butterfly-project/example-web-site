@@ -1,3 +1,2 @@
 __import:
   - 'config/common.yml'
-  - 'data/data.yml'
