@@ -1,6 +1,6 @@
-bfy_plugin.template_router.default_uri: '/index'
-bfy_app.routing.action_name_of_404:     'controller.site:page404'
-bfy_app.template_of_404:                'error/page404.html.twig'
+bfy_plugin.template_router.default_uri:     '/index'
+bfy_plugin.template_router.template_of_404: 'error/page404.html.twig'
+bfy_plugin.template_router.data:            '&../data/data.yml'
 
 bfy_plugin.template_router.templates_dirs:
   - dir:             '%app.dir.root%/view'

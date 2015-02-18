@@ -1,2 +1,1 @@
-bfy_plugin.template_router.data_source:
-  users: '&users.yml'
+users: '&users.yml'
