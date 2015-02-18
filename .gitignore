@@ -3,5 +3,4 @@ nbproject/
 vendor/
 var/
 !var/.gitkeep
-config/local.yml
 phpunit.phar
